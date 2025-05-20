@@ -1,0 +1,12 @@
+def anagram_checker(str_1,str_2):
+    str_1 = str_1.lower().replace(" ", "")
+    str_2 = str_2.lower().replace(" ", "")
+    return sorted(str_1) == sorted(str_2)
+    
+str_1 = input("Enter a string: ")
+str_2 = input("Enter a string: ")
+
+if anagram_checker(str_1,str_2):
+    print(f"{str_1} and {str_2} are both anagrams")
+else:
+    print(f"{str_1} and {str_2} are not both anagrams")
