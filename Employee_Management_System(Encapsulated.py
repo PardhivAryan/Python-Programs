@@ -6,6 +6,7 @@ class Employee:
         self.__age = age # These inputs are stored in the object using self.__attribute_name
         self.__salary = salary # These inputs are stored in the object using self.__attribute_name
         
+# To access a private variable(self.__name) from outside, you'd have to use a getter method (Note: public variable means(self.name(no underscore)) 
     def get_emp_id(self): #  get() → Read(Access) the value
         return self.__emp_id
     def get_name(self): #  get() → Read(Access) the value
