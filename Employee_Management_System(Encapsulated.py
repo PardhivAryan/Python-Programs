@@ -1,6 +1,6 @@
 # Employee Class
 class Employee:
-    def __init__(self, emp_id, name, age, salary): # Here self → object. emp_id, name, age, salary → input values (parameters) to the constructer(__init__)
+    def __init__(self, emp_id, name, age, salary): # Here self → object. emp_id, name, age, salary → input values(parameters) to the constructer(__init__)
         self.__emp_id = emp_id # These inputs are stored in the object using self.__attribute_name
         self.__name = name # These inputs are stored in the object using self.__attribute_name
         self.__age = age # These inputs are stored in the object using self.__attribute_name
