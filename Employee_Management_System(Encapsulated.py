@@ -1,10 +1,10 @@
 # Employee Class
 class Employee:
-    def __init__(self, emp_id, name, age, salary): # Here self → object. emp_id, name, age, salary → input values (parameters)
-        self.__emp_id = emp_id # attributes of the object to store those values
-        self.__name = name # attributes of the object to store those values
-        self.__age = age # attributes of the object to store those values
-        self.__salary = salary # attributes of the object to store those values
+    def __init__(self, emp_id, name, age, salary): # Here self → object. emp_id, name, age, salary → input values (parameters) to the constructer(__init__)
+        self.__emp_id = emp_id # These inputs are stored in the object using self.__attribute_name
+        self.__name = name # These inputs are stored in the object using self.__attribute_name
+        self.__age = age # These inputs are stored in the object using self.__attribute_name
+        self.__salary = salary # These inputs are stored in the object using self.__attribute_name
         
     def get_emp_id(self): #  get() → Read(Access) the value
         return self.__emp_id
